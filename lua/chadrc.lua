@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "dark_horizon",
+  theme = "onedark",
 
   -- hl_override = {
   -- 	Comment = { italic = true },
@@ -17,7 +17,7 @@ M.base46 = {
   integrations = {},
   changed_themes = {},
   transparency = false,
-  theme_toggle = { "dark_horizon", "one_light" },
+  theme_toggle = { "onedark", "one_light" },
 }
 
 M.ui = {

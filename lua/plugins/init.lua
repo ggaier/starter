@@ -32,6 +32,9 @@ return {
   },
 
   "nvchad/volt",
+
+  --"SmiteshP/nvim-navic",
+  "udalov/kotlin-vim"
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
