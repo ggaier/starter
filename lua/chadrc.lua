@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "onedark",
+  theme = "dark_horizon",
 
   -- hl_override = {
   -- 	Comment = { italic = true },
@@ -17,7 +17,7 @@ M.base46 = {
   integrations = {},
   changed_themes = {},
   transparency = false,
-  theme_toggle = { "onedark", "one_light" },
+  theme_toggle = { "dark_horizon", "one_light" },
 }
 
 M.ui = {
@@ -118,6 +118,11 @@ M.colorify = {
   mode = "virtual", -- fg, bg, virtual
   virt_text = "󱓻 ",
   highlight = { hex = true, lspvars = true },
+}
+
+--开启Nvim的时候，显示dashboard
+M.nvdash = {
+  load_on_startup = true
 }
 
 return M
