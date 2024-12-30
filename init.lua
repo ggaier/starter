@@ -26,11 +26,19 @@ require("lazy").setup({
 }, lazy_config)
 
 require("mason").setup({
-    PATH = "prepend", -- "skip" seems to cause the spawning error
+  PATH = "prepend",   -- "skip" seems to cause the spawning error
+})
+
+require("nvim-tree").setup({
+  view = {
+    float = {
+      enable = true
+    }
+  },
 })
 -- load theme
 
--- put this after lazy setup 
+-- put this after lazy setup
 
 -- (method 1, For heavy lazyloaders)
 dofile(vim.g.base46_cache .. "defaults")
